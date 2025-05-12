@@ -4,59 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosi</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header><!-- Header -->
         <div class="header">
             <figure>
-                <img src="" alt="">
+                <img src="img/Luffy.jpg" alt="">
             </figure>
             <h1>Rosi Imóveis</h1>
         </div>
     </header>
     <main>
-        <div class="imagens"></div>
-        <div class="filtro">
-            <div>
-                <label for="filtro">Filtros</label>
-                <div class="radio">
-                    <input type="radio" id="alugar" name="filtro" value="alugar">
-                    <label for="alugar">Aluguel de Imóvel</label>
-                    <br>
-                    <input type="radio" id="comprar" name="filtro" value="comprar">
-                    <label for="comprar">Compra de Imóvel</label>
-                </div>  
-            </div>
-            <div>
-                <label for="type">Tipo de imóvel: </label>
-                <div class="type"> 
-                    <input type="checkbox" name="type" value="comercio">
-                    <label for="comercio">Comercial</label>
-                    <br>
-                    <input type="checkbox" name="type" value="residencia">
-                    <label for="residencia">Residêncial</label>
-                    <br>
-                    <input type="checkbox" name="type" value="industria">
-                    <label for="industria">Industrial</label>
-                    <br>
+        <div class="container">
+            <section><!-- Parte esquerda da página -->
+                <div class="imagens"><!-- Parte das casas -->
+                    <figure>
+                        <img src="img/Luffy.jpg" alt="Casa">
+                        <figcaption>
+                            <ul>
+                                <li>Para aluguel</li>
+                                <li>Prédio resiêncial</li>
+                                <li>Localização: Canoas</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/Luffy.jpg" alt="Casa">
+                        <figcaption>
+                            <ul>
+                                <li>Para aluguel</li>
+                                <li>Prédio comercial</li>
+                                <li>Localização: Sapucaia do Sul</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/Luffy.jpg" alt="Casa">
+                        <figcaption>
+                            <ul>
+                                <li>Para aluguel</li>
+                                <li>Prédio comercial</li>
+                                <li>Localização: Esteio</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
                 </div>
-            </div>
-            <div>
-                <label for="loc">Localização:</label>
-                <div class="radio">
-                    <input type="radio" id="sapucaia" name="loc" value="sapucaia">
-                    <label for="sapucaia">Sapucaia do Sul</label>
-                    <br>
-                    <input type="radio" id="esteio" name="loc" value="esteio">
-                    <label for="esteio">Esteio</label>
-                    <br>
-                    <input type="radio" id="canoas" name="loc" value="canoas">
-                    <label for="canoas">Canoas</label>
-                </div>  
+            </section>
+            <section><!-- Parte direita da página -->
+                <div class="filtro"><!-- Parte dos filtros -->
+                    <div>
+                        <label for="filtro">Filtros</label>
+                        <div class="radio">
+                            <input type="radio" id="alugar" name="filtro" value="alugar">
+                            <label for="alugar">Aluguel de Imóvel</label>
+                            <br>
+                            <input type="radio" id="comprar" name="filtro" value="comprar">
+                            <label for="comprar">Compra de Imóvel</label>
+                        </div>  
+                    </div>
+                    <div>
+                        <label for="type">Tipo de imóvel: </label>
+                        <div class="type"> 
+                            <input type="checkbox" name="type" value="comercio">
+                            <label for="comercio">Comercial</label>
+                            <br>
+                            <input type="checkbox" name="type" value="residencia">
+                            <label for="residencia">Residêncial</label>
+                            <br>
+                            <input type="checkbox" name="type" value="industria">
+                            <label for="industria">Industrial</label>
+                            <br>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="loc">Localização:</label>
+                        <div class="radio">
+                            <input type="radio" id="sapucaia" name="loc" value="sapucaia">
+                            <label for="sapucaia">Sapucaia do Sul</label>
+                            <br>
+                            <input type="radio" id="esteio" name="loc" value="esteio">
+                            <label for="esteio">Esteio</label>
+                            <br>
+                            <input type="radio" id="canoas" name="loc" value="canoas">
+                            <label for="canoas">Canoas</label>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+        </div>    
+        </section><!-- Sobre nós -->
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>ahdajsdhadjkhadjkhasdjhadjkhadjkhadkjhadkjahdkjahdkjashdkjasaksjhaskdjhasdkjahsdkjashdakjdhkajsdhaksjdhakjdhakjdhakjdhakjdha</p>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <h2>&copy;Rosi Imóveis</h2>
+            <div class="contatoInfo">
+                <p>rosi@terra.com.br</p>
+                <p>fone:519898989</p>
             </div>
         </div>
-    </main>
-    <footer></footer>
+    </footer>
 
 </body>
 </html>

@@ -3,4 +3,37 @@
     border: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(245, 203, 203);
 }
+
+/* Parte do Header */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 80, 80);
+    padding: 50px 50px 50px 40%;
+}
+
+.header img {
+    height: 50px;
+    background-color: rgb(248, 80, 80);
+}
+
+.header h1 {
+    font-size: 50px;
+    background-color: rgb(248, 80, 80);
+}
+
+/* Container */
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+/* Parte esquerda do container */
+/* Parte direita do container */
+/* Parte sobre nós */
+/* Parte do Footer */
+/* Botão do Whatsap */
+
