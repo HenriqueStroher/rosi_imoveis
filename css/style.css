@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Popping', sans-serif;
 }
 
 .header {
@@ -59,8 +62,8 @@ ul {
 }
 
 .left-container img {
-    height: 50vh;
-    width: 50vh;
+    height: 30vh;
+    width: 30vh;
     background-position: center;
     background-size: cover;
 }
@@ -100,12 +103,21 @@ button {
     background-color: #e95b5b;
     font-size: 15px;
     color: #fdfdfd;
+    cursor: pointer;
+}
+
+#finalidade, #tipo, #localizacao {
+    color: #FAFAFA;
+    background-color: #1C1C1C;
+    cursor: pointer;
 }
 
 /* About Us */
 .about-us-container {
     margin: 5px auto;
-    width: 75%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .about-us-container h2 {
@@ -116,16 +128,65 @@ button {
     padding-top: 1rem;
 }
 
+.about-img img{
+    position: relative;
+    z-index: 1;
+    height: 30vh;
+    border-radius: 20px;
+    z-index: 1;
+}
+
 .about {
+    width: 90%;
+    margin: auto;
     display: flex;
-    gap: 50px;
+    gap: 5000px;
+    align-items: center;
+    height: 300px;
+    gap: 1rem;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.about-text {
+    position: relative;
+    z-index: 1;
+    width: 45%;
     align-items: center;
 }
 
+.about-text h3 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #e95b5b;
+}
+
+#nav-logo-home {
+    position: absolute;
+    font-size: 555px;
+    right: -175px;
+    top: 0;
+    color: #1C1C1C;
+    opacity: 0.9;
+    z-index: 0;
+}
+
+
 /* Button Whatsapp*/
+
+#nav-logo {
+    font-size: 60px;
+    color: #e95b5b;
+    cursor: pointer;
+}
+
 .whatsapp {
     display: flex;
-    size: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 /* Footer */
@@ -134,5 +195,5 @@ button {
     align-items: center;
     padding: 3rem;
     background-color: #1C1C1C;
-    color: #FFCDD2;
+    color: #e95b5b;
 }
