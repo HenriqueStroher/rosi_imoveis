@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: #FFCDD2;
 }
 
 .header {
@@ -12,12 +11,14 @@
     align-items: center;
     justify-content: space-between;
     background: #1C1C1C;
-    color: #8B0000;
+    color: #e95b5b;
     padding: 2.5rem 5rem;
+    border-bottom: 1px solid #FAFAFA;
+    
 }
 
 .nav-header, ul {
-    display: flex;
+    display: flex;  
     gap: 1.5rem;
 }
 
@@ -27,4 +28,111 @@ ul {
 
 .nav-header a {
     text-decoration: none;
+    color: #FFCDD2;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100vh;
+    max-height: 1100vh;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    background-color: #1C1C1C;
+}
+
+/* Left Part */
+.left-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #1C1C1C;
+}
+
+.left-container figure {
+    border: 0.5px solid rgb(138, 5, 5);
+    background-color: #FFCDD2;
+    padding: 0.5rem;
+}
+
+.left-container img {
+    height: 50vh;
+    width: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+/* Right Part */
+.right-container {
+    display: flex;
+    flex-direction: column;
+    color: #1C1C1C;
+    border: 0.5px solid #FAFAFA;
+    padding: 0.5rem 40px 40px 40px;
+    background-color: #FFCDD2;
+    border-radius: 0.5rem;
+}
+
+.right-container h2 {
+    font-size: 25px;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid #1C1C1C;
+}
+
+.filtro-section {
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 0.5rem;
+    background-color: #e95b5b;
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+/* About Us */
+.about-us-container {
+    margin: 5px auto;
+    width: 75%;
+}
+
+.about-us-container h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #e95b5b;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.about {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+/* Button Whatsapp*/
+.whatsapp {
+    display: flex;
+    size: 15px;
+}
+
+/* Footer */
+.footer-container {
+    text-align: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #1C1C1C;
+    color: #FFCDD2;
 }
