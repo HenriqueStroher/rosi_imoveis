@@ -182,6 +182,10 @@ button {
     cursor: pointer;
 }
 
+a.fa-brands, a.fa-solid{
+    text-decoration: none;
+}
+
 .whatsapp {
     display: flex;
     position: fixed;
